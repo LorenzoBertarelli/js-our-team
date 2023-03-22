@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-}
-
-.row>* {
-    padding: 0;
-}
-
-.card {
-    width: 100%;
-
-}
-
 .flex {
     display: flex;
 }
@@ -27,9 +14,14 @@ h1 {
     justify-content: center;
 }
 
-h5 {
-    max-width: 60%;
+header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
+    align-items: center;
+  }
+  
+  .subtitle {
+    max-width: 60%;
+    text-align: center;
+  }
