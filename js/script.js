@@ -2,32 +2,32 @@ const team = [
     {
         nome: "Wayne Barnett",
         ruolo:"Founder & CEO",
-        foto: "angela-caroll-chief-editor.jpg"
+        foto: "wayne-barnett-founder-ceo.jpg"
     },
     {
         nome: "Angela Caroll",
         ruolo:"Chief Editor",
-        foto: "aaa"
+        foto: "angela-caroll-chief-editor.jpg"
     },
     {
         nome: "Walter Gordon",
         ruolo:"Office Manager",
-        foto: "path/to/image.jpg"
+        foto: "walter-gordon-office-manager.jpg"
     },
     {
         nome: "Angela Lopez",
         ruolo:"Social Media Manager",
-        foto: "aaa"
+        foto: "angela-lopez-social-media-manager.jpg"
     },
     {
         nome: "Scott Estrada",
         ruolo:"Developer",
-        foto: "aaa"
+        foto: "scott-estrada-developer.jpg"
     },
     {
         nome: "Barbara Ramos",
         ruolo:"Graphic Designer",
-        foto: "aaa"
+        foto: "barbara-ramos-graphic-designer.jpg"
     }
 ]
 
@@ -37,8 +37,8 @@ let cards = "";
 for (let i = 0; i < team.length; i++) {
     const curTeam = team[i];
     cards += `
-    <div class="card" style="">
-        <img ${curTeam.foto} src="img/angela-caroll-chief-editor.jpg" class="card-img-top, img" alt="...">
+    <div class="card mx-auto" style="">
+        <img  src="img/${curTeam.foto}" img" alt="...">
         <div class="card-body">
             <h2>${curTeam.nome}</h2>
             <p class="card-text">${curTeam.ruolo}</p>
